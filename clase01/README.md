@@ -60,6 +60,13 @@ git diff < nombre-archivo >
 git diff < clase01/README.ms >
 
 ```
+# Para recuperar todo lo que se pierda o borre se utiliza RESTORE
+
+```sh
+git restore
+git restore --stage <nombre del archivo>
+git restore --help
+```
 
 
 
