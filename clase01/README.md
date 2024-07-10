@@ -38,6 +38,8 @@ git status
 # Hacer un commit (backup, snapshot)
 ```sh
 git commit -m "mensaje descriptivo"
+git commit -m "agrego el git lof y el git diff en la docu"
+git commit #me abre el editor para yo poder escribir el titulo y el cuerpo del mensaje
 ```
 
 # Ver la diferencia entre el working directory y el local repo
