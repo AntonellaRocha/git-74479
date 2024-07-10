@@ -35,6 +35,19 @@ git status
 * Unmodified => Archivos que se cuentran en en el respositorio y no fueron modificado (Con respecto al repositorio)
 * Modified => Archivos que se encuentro en el repositorio pero difieren con lo que se encuentra actualmente en el directorio trabajo (Working directory)
 
+# Hacer un commit (backup, snapshot)
+```sh
+git commit -m "mensaje descriptivo"
+```
+
+# Ver la diferencia entre el working directory y el local repo
+
+```sh
+git
+```
+
+
+
 
 
 
