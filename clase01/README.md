@@ -43,7 +43,10 @@ git commit -m "mensaje descriptivo"
 # Ver la diferencia entre el working directory y el local repo
 
 ```sh
-git
+git diff
+git diff < nombre-archivo >
+git diff < clase01/README.ms >
+
 ```
 
 
