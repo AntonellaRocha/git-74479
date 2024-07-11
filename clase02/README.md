@@ -7,3 +7,11 @@ Existe un archivo que nos permite ignorar ciertos archivos que queremos que no s
 ```sh
 touch .gitignore
 ```
+
+## Archivo .gitkeep
+ 
+Existe un archivo que nos permite agregar a los commit, las carpetas vacias que git por defecto ignora.
+
+```sh
+touch .gitignore
+```
