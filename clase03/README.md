@@ -101,5 +101,12 @@ Me permite deshacer commits en el arbol de trabajo (Working directory) y en area
 ```sh
 git reset --soft <hash>
 ```
+* Reset Mixed: borrar el commit seleccionados y coloca el contenido de esos commits en el WD
 
+```sh
+git reset <hash>
+git reset --mixed <hash>
+```
+
+* Reset hard: borrar el commit o commits seleccionados y elimina el contenido de esos commits. Es destructivo.
 
