@@ -94,3 +94,5 @@ git stash
 ## RESET
 Me permite deshacer commits en el arbol de trabajo (Working directory) y en area de preparacion (Staging Area)
 
+### Tipos de reset
+
