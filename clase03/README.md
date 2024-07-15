@@ -1,9 +1,6 @@
 # Clase 03 - git Desarrollo Colaborativo
 
-<<<<<<< HEAD
 
-=======
->>>>>>> repaso-branches
 ## Crear una nueva rama
 
 ```sh
@@ -42,71 +39,4 @@ git merge --help
 
 # Herramientas con GUI para la gestion de un repositorio de GIT ///
 
-* GitHub Desktop:
-* GitKraken:
-
-# Stashes
-
-
-## Crear un stash
-
-```sh
-git stash
-```
-
-## Recuperar un stash
-
-```sh
-git stash pop
-```
-
-## Ver los stash
-
-```sh
-git stash list
-```
-
-## Ver los stash
-
-```sh
-git stash 0
-```
-
-
-# Aplicar un stash en particular
-
-```sh
-git stash apply <numero-de-stash>
-git stash apply 1
-```
-
-## Borrar un stash
-
-```sh
-git stash drop #Borra el ultimo stash
-git stash drop 2 #borra el stash elegido, en este caso el 2
-```
-
-```sh
-git stash
-```
-
-## RESET
-Me permite deshacer commits en el arbol de trabajo (Working directory) y en area de preparacion (Staging Area)
-
-### Tipos de reset
-
-* reset soft: borrar el commit seleccionado y coloca el contenido de esos commits en el SA
-
-```sh
-git reset --soft <hash>
-```
-* Reset Mixed: borrar el commit seleccionados y coloca el contenido de esos commits en el WD
-
-```sh
-git reset <hash>
-git reset --mixed <hash>
-```
-
-* Reset hard: borrar el commit o commits seleccionados y elimina el contenido de esos commits. Es destructivo.
-
+* GitDesktop
