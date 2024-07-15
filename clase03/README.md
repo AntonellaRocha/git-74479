@@ -47,7 +47,7 @@ git merge --help
 
 # Stashes
 
-<<<<<<< Updated upstream
+
 ## Crear un stash
 
 ```sh
@@ -86,8 +86,7 @@ git stash apply 1
 git stash drop #Borra el ultimo stash
 git stash drop 2 #borra el stash elegido, en este caso el 2
 ```
-=======
+
 ```sh
 git stash
 ```
->>>>>>> Stashed changes
