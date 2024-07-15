@@ -15,3 +15,13 @@ Existe un archivo que nos permite agregar a los commit, las carpetas vacias que 
 ```sh
 touch .gitignore
 ```
+
+# Subir nuestro repositorio a la nube
+
+Nos logueamos en GITHUB y creamos un repositrio. Dejo por todo por defecto y si quiero cambio la visibilidad.
+
+## Agregar el repositorio remoto al repo local
+
+
+
+# RAMAS (Branches)
