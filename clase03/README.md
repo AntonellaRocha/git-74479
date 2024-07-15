@@ -96,3 +96,5 @@ Me permite deshacer commits en el arbol de trabajo (Working directory) y en area
 
 ### Tipos de reset
 
+* reset soft: borrar el commit seleccionado y coloca el contenido de esos commits en el SA
+
