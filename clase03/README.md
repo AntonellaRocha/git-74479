@@ -40,7 +40,6 @@ git merge --help
 * Algoritmo: cuando GIT detecta cierto grado de modificaci+on, no utiliza el fast-foward. Utiliza diferentes tipos de algortimos. Tambien soluciona por si mismo los posibles incovenientes en la fusion, pero crea un nuevo commit intermedio, usando el ultimo commit de cada rama.
 * Conflicto: Git no puede resolver por si solo la fusión. Por ende necesita la ayuda del desarrollador/es involucrados en el código que se esta fusionando.
 
-<<<<<<< HEAD
 # Herramientas con GUI para la gestion de un repositorio de GIT ///
 
 * GitHub Desktop:
@@ -71,8 +70,3 @@ git stash list
 ```sh
 git stash 0
 ```
-=======
-# Herramientas visuales
-
-* GitDesktop
->>>>>>> repaso-branches
