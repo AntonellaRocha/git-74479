@@ -40,3 +40,25 @@ git merge --help
 # Herramientas con GUI para la gestion de un repositorio de GIT ///
 
 * GitDesktop
+
+# Alias en Git
+
+```sh
+git config --global alias.<nombre-al-alias> "<comando-de-git-sin-la-palabra-git>"
+git config --global alias.l "log --oneline"
+git config --global alias.ll "log --oneline --all --graph --decorate"
+git config --global alias.s "status --short"
+```
+
+# Borrar un  alias
+
+```sh
+git config --global --unset alias.ll
+```
+
+# Listar los alias que tengo
+
+```sh
+git config --global --get-regexp alias 
+```
+
