@@ -41,3 +41,29 @@ git merge --help
 
 * GitHub Desktop:
 * GitKraken:
+
+# Stashes
+
+## Crear un stash
+
+```sh
+git stash
+```
+
+## Recuperar un stash
+
+```sh
+git stash pop
+```
+
+## Ver los stash
+
+```sh
+git stash list
+```
+
+## Ver los stash
+
+```sh
+git stash 0
+```
