@@ -70,3 +70,18 @@ git stash list
 ```sh
 git stash 0
 ```
+
+
+# Aplicar un stash en particular
+
+```sh
+git stash apply <numero-de-stash>
+git stash apply 1
+```
+
+## Borrar un stash
+
+```sh
+git stash drop #Borra el ultimo stash
+git stash drop 2 #borra el stash elegido, en este caso el 2
+```
