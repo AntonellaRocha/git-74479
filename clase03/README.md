@@ -98,3 +98,8 @@ Me permite deshacer commits en el arbol de trabajo (Working directory) y en area
 
 * reset soft: borrar el commit seleccionado y coloca el contenido de esos commits en el SA
 
+```sh
+git reset --soft <hash>
+```
+
+
